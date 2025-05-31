@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "STARK-ALI~GhxEmaCB#ig5NNNShjD3BL9d_y0ml3qZNtXYB2vms88dUshw6izI",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~exYWXIjD#wWQ9OvrM6uLjybjYw4AVdbUrivt8s88SNpddfcqe6lc",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,11 +13,11 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW THE LEGEND NAWAB 👻*",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ALI-MD",
+BOT_NAME: process.env.BOT_NAME || "LEGEND-NAWAB",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "ALI-MD",
 // type sticker pack name 
@@ -35,15 +35,15 @@ WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
 GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups
-ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
+ADMIN_STATUS: process.env.ADMIN_STATUS || "true",
 // make true to know who dismiss or promoted a member in group
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-MENTION_REPLY: process.env.MENTION_REPLY || "false",
+MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // maks true for always online 
 //ANTI_CALL: process.env.ANTI_CALL || "true",
 //maks anticall true, false for calls
-//REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*", 
+//REJECT_MSG: process.env.REJECT_MSG || "*📞 ᑕᗩᒪᒪ ᑎᗝ丅 ᗩᒪᒪᗝᗯᗴᗪ ᗷᗴᑕᗩᑌᔕᗴ 丅ᕼᗴ ᒪᗴǤᗴᑎᗪ ᑎᗩᗯᗩᗷ Ꭵᔕ ᗷᑌᔕƳ ᔕᗝ ᗯᗩᎥ丅 📵*", 
 // add anticall message 
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽💀*",
 // add bot owner name    
