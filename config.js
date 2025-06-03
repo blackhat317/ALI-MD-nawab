@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "VAJIRA-MD=z5A2WaIY#HcqzJ-sowu9vVGbqp_jq6UacSSjmwyTrzLrqu3w0GIM",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~akYjVD6T#YhiJM8le4-uEr6RgxzeutUsQp5r2ui9hpPQRDZbWtpk",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -39,7 +39,7 @@ ADMIN_STATUS: process.env.ADMIN_STATUS || "true",
 // make true to know who dismiss or promoted a member in group
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-MENTION_REPLY: process.env.MENTION_REPLY || "true",
+MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // maks true for always online 
 //ANTI_CALL: process.env.ANTI_CALL || "true",
 //maks anticall true, false for calls
@@ -53,7 +53,7 @@ LIVE_MSG: process.env.LIVE_MSG || "> HEY 👋 IM ALIVE NOW*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "true",
+AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
 // false or true for anti bad words  
