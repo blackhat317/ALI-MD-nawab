@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "STARK-ALI~m5Qw1BwC#KrjUFVaXMf67XlQFv68vuuMTdCGK2M_tKNccN19YlVg",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~C5ZyyYRL#MwtGm7vJPdmut52Hz2UejLQLXCMpAUTfe39xfT0Ex38",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -35,11 +35,11 @@ WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
 GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups
-ADMIN_STATUS: process.env.ADMIN_STATUS || "true",
+ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-MENTION_REPLY: process.env.MENTION_REPLY || "true",
+MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // maks true for always online 
 //ANTI_CALL: process.env.ANTI_CALL || "true",
 //maks anticall true, false for calls
@@ -69,7 +69,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "flase",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
