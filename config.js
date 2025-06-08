@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "STARK-ALI~blI3ga7I#5y_e2tsJfewxwmiH8X-PHVe4fjDAtwICLCs0Ntv7ZnM",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~i1gXUDpD#ASq6mf2DxsaR1BEw8ovobv3CfF4LX5Gqeewgmlq7co4",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -15,7 +15,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW THE LEGEND NAWAB 👻*",
 // set the auto reply massage on status reply  
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ". , /",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "LEGEND-NAWAB",
 // add bot namw here for menu
@@ -31,11 +31,11 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ALI",
 // add bot owner name 
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome msg in groups
-GOODBYE: process.env.GOODBYE || "true",
+GOODBYE: process.env.GOODBYE || "false",
 // true if want goodbye msg in groups
-ADMIN_STATUS: process.env.ADMIN_STATUS || "true",
+ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
@@ -53,7 +53,7 @@ LIVE_MSG: process.env.LIVE_MSG || "> HEY 👋 IM ALIVE NOW*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "true",
+AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
 // false or true for anti bad words  
