@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~GFcxRZDB#-Rf1gtzCp3p_PQhHczNhXTasJj7sJl8umLZvTH_sauc",
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~jZcwTZoA#sPzmnUeEdHPnopknTi77qqzH6tvU5hiTusKxDLfYST4",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -17,7 +17,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW THE 
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "NAWAB-RDX",
+BOT_NAME: process.env.BOT_NAME || "ALI-MD",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "ALI-MD",
 // type sticker pack name 
@@ -27,9 +27,9 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923098586776",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923345800839",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ALI",
+OWNER_NAME: process.env.OWNER_NAME || "亗𝐓𝐇𝐄 ⸕ 𝐍𝐀𝐖𝐀𝐁 ⸔ 𝐈𝐍𝐗𝐈𝐃𝐄'𝐖亗",
 // add bot owner name 
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
